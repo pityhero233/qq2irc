@@ -284,7 +284,7 @@ while True:
                     ptime = news[tot].published
                     tsummary = tsummary + "\n" + title
                     tot = tot + 1;
-                say(summary)
+                say(tsummary)
                 time.sleep(0.2)
 
                 if tot==0:
@@ -408,6 +408,13 @@ while True:
             else:
                 qqid = word.split(" ")[1]
                 sendcomm.send(("SEND", qqid, word[6+len(qqid):]))
+
+        if (word[0]=="@"):
+            if (word[1]==" "):
+                sendcomm.send(("SENDLAST", "", word[2:]))
+            else:
+                uname = word.split(" ")[0][1:]
+                sendcomm.send(("SENDUSER", uname, word[len(uname)+2:]))
 
     elif data.find( 'JOIN')!=-1:
         for (tuser,tword) in reminder.items():
