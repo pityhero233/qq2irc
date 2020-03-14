@@ -190,8 +190,6 @@ def thCoolQ():
     print("Mutual Connection Established.")
 
     time.sleep(5)
-    sendcomm.send(("DEBUGSEND","",""))
-    print("debug routine activated.")
     while True:
         (commtype,nick, content) = conn.recv()
         if commtype=="msg":
@@ -404,7 +402,7 @@ while True:
         if (word[:9]=="synthesis"):
             os.system("echo \""+word[9:]+"\" |espeak")
             say("speaked out.")
-        if (word[:3]=="send"):
+        if (word[:4]=="send"):
             if (word.find(" ")<=0):
                 say("Format incorrect. Usage: send [qqid] [content]")
             else:
