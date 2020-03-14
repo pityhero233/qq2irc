@@ -24,8 +24,16 @@ def ircListener():
                 print(asyncio.run(bot.send_private_msg(user_id=1019508714,message="test")))
             except CQHttpError:
                 print("Error.")
+                conn.send(("err", "", ""))
             print("send done.")
-
+        if comm=="SEND":
+            print("Send Activated")
+            try:
+                print(asyncio.run(bot.send_private_msg(user_id=int(arg1),message=arg2)))
+            except CQHttpError:
+                print("Error.")
+                conn.send(("err","",""))
+            print("send done.")
 t = threading.Thread(target=ircListener,args=())
 t.start()
 

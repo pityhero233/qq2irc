@@ -198,6 +198,8 @@ def thCoolQ():
             print("new message: "+nick+" says "+content)
             push(nick+" says: "+content)
             chats.append((time.strftime("%Y-%m-%d %H:%M:%S"), nick, content))
+        if commtype=="err":
+            push("error in doing prev action.")
 
 t = threading.Thread(target=thCoolQ,args=())
 t.start()
@@ -408,7 +410,7 @@ while True:
             else:
                 qqid = word.split(" ")[1]
                 sendcomm.send(("SEND", qqid, word[6+len(qqid):]))
-                
+
     elif data.find( 'JOIN')!=-1:
         for (tuser,tword) in reminder.items():
             if ((data).lower().find(tuser)!=-1):
