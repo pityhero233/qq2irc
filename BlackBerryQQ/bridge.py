@@ -243,11 +243,6 @@ while True:
             except:
                 push("calc is a basic calculator by eval function of IRC.")
                 push("Error in dealing the expression.")
-        if (word[:4]=='exit' and nick.lower()=="pityhero233"):
-            with open("reminders.pkl","wb") as filea:
-                pickle.dump(reminder,filea)
-            push("Message dumped.");push("system halted.")
-            os._exit()
         if (word=='news'):
             try:
                 refreshNews()
