@@ -1,0 +1,202 @@
+:barjavel.freenode.net NOTICE * :*** Looking up your hostname...
+
+now you can start main Nonebot program...
+:barjavel.freenode.net NOTICE * :*** Checking Ident
+:barjavel.freenode.net NOTICE * :*** No Ident response
+
+:barjavel.freenode.net NOTICE * :*** Couldn't look up your hostname
+
+:barjavel.freenode.net 001 GeneBot :Welcome to the freenode Internet Relay Chat Network GeneBot
+:barjavel.freenode.net 002 GeneBot :Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.9
+:barjavel.freenode.net 003 GeneBot :This server was created Thu Dec 19 2019 at 20:10:02 UTC
+:barjavel.freenode.net 004 GeneBot barjavel.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+:barjavel.freenode.net 005 GeneBot CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+:barjavel.freenode.net 005 GeneBot CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX KNOCK CPRIVMSG :are supported by this server
+:barjavel.freenode.net 005 GeneBot CNOTICE ETRACE SAFELIST ELIST=CTU :are supported by this server
+:barjavel.freenode.net 251 GeneBot :There are 88 users and 81950 invisible on 29 servers
+:barjavel.freenode.net 252 GeneBot 34 :IRC Operators online
+:barjavel.freenode.net 253 GeneBot 18 :unknown connection(s)
+:barjavel.freenode.net 254 GeneBot 43352 :channels formed
+:barjavel.freenode.net 255 GeneBot :I have 5632 clients and 1 servers
+:barjavel.freenode.net 265 GeneBot 5632 5885 :Current 
+local users 5632, max 5885
+:barjavel.freenode.net 266 GeneBot 82038 87996 :Current global users 82038, max 87996
+:barjavel.freenode.net 250 GeneBot :Highest connection count: 5886 (5885 clients) (176599 connections received)
+:barjavel.freenode.net 375 GeneBot :- barjavel.freenode.net Message of the Day - 
+:barjavel.freenode.net 372 GeneBot :- Welcome to barjavel.freenode.net in Paris, FR, EU. 
+:barjavel.freenode.net 372 GeneBot :- Thanks to Bearstech (www.bearstech.com) for sponsoring
+:barjavel.freenode.net 372 GeneBot :- this server!
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+:barjavel.freenode.net 372 GeneBot :- science-fiction author, a journalist and a critic. He is
+:barjavel.freenode.net 372 GeneBot :- credited with having written the first novel to introduce 
+:barjavel.freenode.net 372 GeneBot :- the Grandfather Paradox in time travel, in his 1943 work 
+:barjavel.freenode.net 372 GeneBot :- 'Le Voyageur imprudent'.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- Welcome to freenode - supporting the free and open source
+:barjavel.freenode.net 372 GeneBot :- software communities since 1998.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- By connecting to freenode you indicate that you have read and
+:barjavel.freenode.net 372 GeneBot :- accept our policies and guidelines as set out on https://freenode.net
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- In the event that you observe behaviour that contravenes our policies,
+:barjavel.freenode.net 372 GeneBot :- please notify a volunteer staff member via private message, or send us an
+:barjavel.freenode.net 372 GeneBot :- e-mail to complaints@freenode.net -- we will do our best to address the
+:barjavel.freenode.net 372 GeneBot :- situation within a reasonable period of time, and we may request further
+:barjavel.freenode.net 372 GeneBot :- information or, as appropriate, involve other parties such as channel operators 
+:barjavel.freenode.net 372 GeneBot :- Group Contacts representing an on-topic group.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- freenode runs an open proxy scanner.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- If you are looking for assistance, you may be able to find a list of 
+:barjavel.freenode.net 372 GeneBot :- volunteer staff on '/stats p' (shows only on-call staff) or by joining 
+:barjavel.freenode.net 372 GeneBot :- #freenode and using the '/who freenode/staff/*' command. You may message
+:barjavel.freenode.net 372 GeneBot :- any of us at any time. Please note that freenode predominantly provides 
+:barjavel.freenode.net 372 GeneBot :- assistance via private message, and while we have a network chan
+nel the 
+:barjavel.freenode.net 372 GeneBot :- primary venue for support requests is via private message to a member 
+:barjavel.freenode.net 372 GeneBot :- of the volunteer staff team.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- From time to time, volunteer staff may send server-wide notices relating to
+:barjavel.freenode.net 372 GeneBot :- the project, or the communities that we host. The majority of such notices
+:barjavel.freenode.net 372 GeneBot :- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+:barjavel.freenode.net 372 GeneBot :- do not miss them. Important messages relating to the freenode project, including
+:barjavel.freenode.net 372 GeneBot :- notices of upcoming maintenance and other scheduled downtime will be issued as
+:barjavel.freenode.net 372 GeneBot :- global notices.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- Representing an on-topic project? Don't forget to register, more information
+:barjavel.freenode.net 372 GeneBot :- can be found on the https://freenode.net website under "Group Registration".
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- Thank you also to our server sponsors for the sustained support in keeping the
+:barjavel.freenode.net 372 GeneBot :- network going for close to two decades.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 G
+eneBot :- Thank you for using freenode!
+:barjavel.freenode.net 376 GeneBot :End of /MOTD command.
+:GeneBot MODE GeneBot :+i
+
+:GeneBot!~GeneBot@47.241.39.41 JOIN #jasonfamily
+
+find done.
+:barjavel.freenode.net 353 GeneBot = #jasonfamily :GeneBot @ChanServ
+:barjavel.freenode.net 366 GeneBot #jasonfamily :End of /NAMES list.
+:ChanServ!ChanServ@services. NOTICE GeneBot :[#jasonfamily] Welcome Back!!!
+
+:barjavel.freenode.net NOTICE * :*** Looking up your hostname...
+
+now you can start main Nonebot program...
+:barjavel.freenode.net NOTICE * :*** Checking Ident
+:barjavel.freenode.net NOTICE * :*** Couldn't look up your hostname
+:barjavel.freenode.net NOTICE * :*** No Ident response
+
+:barjavel.freenode.net 001 GeneBot :Welcome to the freenode Internet Relay Chat Network GeneBot
+
+:barjavel.freenode.net 002 GeneBot :Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.9
+:barjavel.freenode.net 003 GeneBot :This server was created Thu Dec 19 2019 at 20:10:02 UTC
+:barjavel.freenode.net 004 GeneBot barjavel.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+:barjavel.freenode.net 005 GeneBot CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+:barjavel.freenode.net 005 GeneBot CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX KNOCK CPRIVMSG :are supported by this server
+:barjavel.freenode.net 005 GeneBot CNOTICE ETRACE SAFELIST ELIST=CTU :are supported by this server
+:barjavel.freenode.net 251 GeneBot :There are 88 users and 81963 invisible on 29 servers
+:barjavel.freenode.net 252 GeneBot 34 :IRC Operators online
+:barjavel.freenode.net 253 GeneBot 26 :unknown connection(s)
+:barjavel.freenode.net 254 GeneBot 43359 :channels formed
+:barjavel.freenode.net 255 GeneBot :I have 5637 clients and 1 servers
+:barjavel.freenode.net 265 GeneBot 5637 5885 :Current local users 5637, max 5885
+:barjavel.freenode.net 266 GeneBot 82051 87996 :Current global users 82051, max 87996
+:barjavel.freenode.net 250 GeneBot :Highest connection count: 5886 (5885 clients) (176653 connections received)
+:barjavel.freenode.net 375 GeneBot :- barjavel.freenode.net Message of the Day - 
+:barjavel.freenode.net 372 GeneBot :- Welcome to barjavel.freenode.net in Paris, FR, EU. 
+:barjavel.freenode.net 372 GeneBot :- Thanks to Bearstech (www.bearstech.com) for sponsoring
+:barjavel.freenode.net 372 GeneBot :- this server!
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+:barjavel.freenode.net 372 GeneBot :- science-fiction author, a journalist and a critic. He is
+:barjavel.freenode.net 372 GeneBot :- credited with having written the first novel to introduce 
+:barjavel.freenode.net 372 GeneBot :- the Grandfather Paradox in time travel, in his 1943 work 
+:barjavel.freenode.net 372 GeneBot :- 'Le Voyageur imprudent'.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- Welcome to freenode - supporting the free and open source
+:barjavel.freenode.net 372 GeneBot :- software communities since 1998.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- By connecting to freenode you indicate that you have read and
+:barjavel.freenode.net 372 GeneBot :- accept our policies and guidelines as set out on https://freenode.net
+:barjavel.freenode.net 372 GeneBot :-  
+:barj
+avel.freenode.net 372 GeneBot :- In the event that you observe behaviour that contravenes our policies,
+:barjavel.freenode.net 372 GeneBot :- please notify a volunteer staff member via private message, or send us an
+:barjavel.freenode.net 372 GeneBot :- e-mail to complaints@freenode.net -- we will do our best to address the
+:barjavel.freenode.net 372 GeneBot :- situation within a reasonable period of time, and we may request further
+:barjavel.freenode.net 372 GeneBot :- information or, as appropriate, involve other parties such as channel operators 
+:barjavel.freenode.net 372 GeneBot :- Group Contacts representing an on-topic group.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- freenode runs an open proxy scanner.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- If you are looking for assistance, you may be able to find a list of 
+:barjavel.freenode.net 372 GeneBot :- volunteer staff on '/stats p' (shows only on-call staff) or by joining 
+:barjavel.freenode.net 372 GeneBot :- #freenode and using the '/who freenode/staff/*' command. You may message
+:barjavel.freenode.net 372 GeneBot :- any of us at any time. Please note that freenode predominantly provides 
+:barjavel.freenode.net 372 GeneBot :- assistance via private message, and while we have a network channel the 
+:barjavel.freenode.net 372 GeneBot :- primary venue for support requests is via private
+ message to a member 
+:barjavel.freenode.net 372 GeneBot :- of the volunteer staff team.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- From time to time, volunteer staff may send server-wide notices relating to
+:barjavel.freenode.net 372 GeneBot :- the project, or the communities that we host. The majority of such notices
+:barjavel.freenode.net 372 GeneBot :- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+:barjavel.freenode.net 372 GeneBot :- do not miss them. Important messages relating to the freenode project, including
+:barjavel.freenode.net 372 GeneBot :- notices of upcoming maintenance and other scheduled downtime will be issued as
+:barjavel.freenode.net 372 GeneBot :- global notices.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- Representing an on-topic project? Don't forget to register, more information
+:barjavel.freenode.net 372 GeneBot :- can be found on the https://freenode.net website under "Group Registration".
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- Thank you also to our server sponsors for the sustained support in keeping the
+:barjavel.freenode.net 372 GeneBot :- network going for close to two decades.
+:barjavel.freenode.net 372 GeneBot :-  
+:barjavel.freenode.net 372 GeneBot :- Thank you for using freenode!
+:barjavel.freenode.net 376 GeneBot :End of /MOTD command
+.
+:GeneBot MODE GeneBot :+i
+
+:GeneBot!~GeneBot@47.241.39.41 JOIN #jasonfamily
+
+find done.
+:barjavel.freenode.net 353 GeneBot = #jasonfamily :GeneBot @ChanServ
+:barjavel.freenode.net 366 GeneBot #jasonfamily :End of /NAMES list.
+:ChanServ!ChanServ@services. NOTICE GeneBot :[#jasonfamily] Welcome Back!!!
+
+Traceback (most recent call last):
+  File "./bridge.py", line 206, in <module>
+    data = sck.recv(4096).decode()
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/usr/lib/python3.7/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 1307, in _shutdown
+    lock.acquire()
+KeyboardInterrupt
+ujson module not found, using json
+msgpack not installed, MsgPackSerializer unavailable
+[2020-03-14 18:44:54,809 nonebot] INFO: Succeeded to import "nonebot.plugins.base"
+Mutual Connection established.
+[2020-03-14 18:44:56,819 nonebot] INFO: Succeeded to import "genebot.plugins.toirc"
+[2020-03-14 18:44:56,820 nonebot] INFO: Succeeded to import "genebot.plugins.ping"
+[2020-03-14 18:44:56,820 nonebot] INFO: Running on 127.0.0.1:6238
+Running on http://127.0.0.1:6238 (CTRL + C to quit)
+[2020-03-14 18:44:56,835] Running on 127.0.0.1:6238 over http (CTRL + C to quit)
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/qq2irc/BlackBerryQQ/genebot/plugins/toirc.py", line 21, in ircListener
+    (comm, arg1, arg2) = revconn.recv()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+

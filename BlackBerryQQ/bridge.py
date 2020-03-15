@@ -1,4 +1,4 @@
-#!/usr/bin/python3.5
+#!/usr/bin/python3.7
 # -*- coding: utf-8 -*-
 import urllib.request
 import sys

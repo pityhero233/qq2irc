@@ -1,3 +1,4 @@
+#!/usr/bin/python3.7
 import nonebot
 import config
 import os
